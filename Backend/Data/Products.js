@@ -2,9 +2,9 @@
 
 const products = [
   {
-    id: "1",
+    
     name: "Apple iPhone 14 Pro",
-    image: "/images/iphone14pro.jpg",
+    image: "https://images.unsplash.com/photo-1705305835960-3271b7e9ae9c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGlwaG9uZSUyMDE0JTIwcHJvfGVufDB8fDB8fHww",
     description: "The latest iPhone with A16 Bionic chip and advanced camera system.",
     brand: "Apple",
     category: "Smartphones",
@@ -14,9 +14,9 @@ const products = [
     numReviews: 120,
   },
   {
-    id: "2",
+    
     name: "Samsung Galaxy S23",
-    image: "/images/galaxys23.jpg",
+    image: "https://plus.unsplash.com/premium_photo-1680985551009-05107cd2752c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2Ftc3VuZyUyMGdhbGF4eSUyMHMzfGVufDB8fDB8fHww",
     description: "Flagship Android smartphone with Snapdragon 8 Gen 2 processor.",
     brand: "Samsung",
     category: "Smartphones",
@@ -26,9 +26,9 @@ const products = [
     numReviews: 95,
   },
   {
-    id: "3",
+    
     name: "Sony WH-1000XM5",
-    image: "/images/sonyxm5.jpg",
+    image: "https://images.unsplash.com/photo-1657223143975-d29d7959a70f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bm9pc2UlMjBjYW5jZWxhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
     description: "Industry-leading noise canceling wireless headphones.",
     brand: "Sony",
     category: "Audio",
@@ -38,9 +38,9 @@ const products = [
     numReviews: 210,
   },
   {
-    id: "4",
+    
     name: "Dell XPS 13 Laptop",
-    image: "/images/dellxps13.jpg",
+    image: "https://images.unsplash.com/photo-1694278963820-eaf19e9fb646?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRlbGwlMjB4cCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
     description: "Premium ultrabook with 13.4-inch display and Intel Core i7.",
     brand: "Dell",
     category: "Laptops",
@@ -50,9 +50,9 @@ const products = [
     numReviews: 80,
   },
   {
-    id: "5",
+    
     name: "Logitech MX Master 3S",
-    image: "/images/mxmaster3s.jpg",
+    image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBtb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
     description: "High-performance wireless mouse for precision work.",
     brand: "Logitech",
     category: "Accessories",
@@ -62,9 +62,9 @@ const products = [
     numReviews: 150,
   },
   {
-    id: "6",
+    
     name: "Apple Watch Series 9",
-    image: "/images/applewatch9.jpg",
+    image: "https://images.unsplash.com/photo-1624096104992-9b4fa3a279dd?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXBwbGUlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D",
     description: "Smartwatch with advanced health tracking and display tech.",
     brand: "Apple",
     category: "Wearables",
@@ -74,9 +74,8 @@ const products = [
     numReviews: 60,
   },
   {
-    id: "7",
     name: "Google Pixel 8",
-    image: "/images/pixel8.jpg",
+    image: "https://plus.unsplash.com/premium_photo-1722092222965-2885cddcf2c1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGl4ZWwlMjA4JTIwbW9iaWxlfGVufDB8fDB8fHww",
     description: "Android phone with Tensor chip and AI-powered features.",
     brand: "Google",
     category: "Smartphones",
@@ -86,7 +85,6 @@ const products = [
     numReviews: 45,
   },
   {
-    id: "8",
     name: "Samsung 4K UHD Smart TV",
     image: "/images/samsung4ktv.jpg",
     description: "55-inch smart TV with vibrant display and streaming apps.",
@@ -98,7 +96,6 @@ const products = [
     numReviews: 110,
   },
   {
-    id: "9",
     name: "Canon EOS R50 Mirrorless Camera",
     image: "/images/canonr50.jpg",
     description: "Beginner-friendly mirrorless camera with great photo quality.",
@@ -110,7 +107,6 @@ const products = [
     numReviews: 35,
   },
   {
-    id: "10",
     name: "Bose QuietComfort Earbuds II",
     image: "/images/boseqc2.jpg",
     description: "Top-tier noise cancelling wireless earbuds.",
@@ -122,7 +118,6 @@ const products = [
     numReviews: 75,
   },
   {
-    id: "11",
     name: "Razer BlackWidow V4 Pro Keyboard",
     image: "/images/razerkeyboard.jpg",
     description: "Mechanical RGB keyboard for gaming and productivity.",
@@ -134,7 +129,6 @@ const products = [
     numReviews: 38,
   },
   {
-    id: "12",
     name: "Fitbit Charge 6",
     image: "/images/fitbitcharge6.jpg",
     description: "Fitness tracker with heart rate, GPS, and sleep tracking.",
@@ -146,7 +140,6 @@ const products = [
     numReviews: 58,
   },
   {
-    id: "13",
     name: "Asus ROG Strix G16 Gaming Laptop",
     image: "/images/asusrog.jpg",
     description: "High-performance gaming laptop with RTX 4070.",
@@ -158,7 +151,6 @@ const products = [
     numReviews: 22,
   },
   {
-    id: "14",
     name: "Anker 737 Power Bank (PowerCore 24K)",
     image: "/images/anker737.jpg",
     description: "High-capacity power bank with fast charging.",
@@ -170,7 +162,6 @@ const products = [
     numReviews: 90,
   },
   {
-    id: "15",
     name: "Microsoft Surface Pro 9",
     image: "/images/surfacepro9.jpg",
     description: "2-in-1 tablet and laptop with 13-inch touchscreen.",
